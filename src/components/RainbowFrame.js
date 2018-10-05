@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 const RainbowFrame = (props)=>{
 
@@ -33,4 +34,12 @@ const RainbowFrame = (props)=>{
 
 }
 
-export default RainbowFrame
+
+RainbowFrame.propTypes = {
+       colors: PropTypes.arrayOf(PropTypes.string)
+  };
+
+
+
+
+export default RainbowFrame;
