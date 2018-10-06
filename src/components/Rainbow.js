@@ -1,11 +1,6 @@
 import React from 'react'
 
 const Rainbow = ()=>{
-    
-    
-
-
-
     return (
 
         <div className='bg-secondary p-3'>
